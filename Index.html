@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Promedio de estudiante</title>
+</head>
+<body class="container">
+
+    <h1>Ingresar la nota del estudiante y carrera cursando</h1>
+
+    <form action="cal.php" method="POST">
+
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+        <input type="text" name="materia" id="materia" placeholder="Materia" required>
+        <input type="number" name="nota1" id="nota1" placeholder="Nota 1" min="1" max="20">
+        <input type="number" name="nota2" id="nota2" placeholder="Nota 2" min="1" max="20">
+        <input type="number" name="nota3" id="nota3" placeholder="Nota 3" min="1" max="20">
+        <input type="number" name="nota4" id="nota4" placeholder="Nota 4" min="1" max="20">
+        <input type="number" name="nota5" id="nota5" placeholder="Nota 5" min="1" max="20">
+        
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
